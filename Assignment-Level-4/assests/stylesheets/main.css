@@ -1,0 +1,29 @@
+@import url(./reset.css);
+
+/* custom style */
+
+.box {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 10px solid red;
+    margin: 20px;
+    background-color: #0ff;
+}
+
+/* box-sizing: border-box */
+
+.border-box {
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px 20px;
+}
+
+span {
+    color: #00f;
+}

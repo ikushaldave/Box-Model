@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment Level 4</title>
+    <link rel="stylesheet" href="./assests/stylesheets/main.css">
 </head>
 <body>
     
+    <!-- section context-box -->
+    <section>
+        <div class="box"></div>
+        <h3>Total-Width = 20px (ML) + 10px (BL) + 20 (PL) + 300px (content width) + 20px (PR) + 10px (BR) + 20px (MR) = <span>400px</span></h3>
+        <h3>Total-Height = 20px (MT) + 10px (BT) + 20 (PT) + 200px (content Height) + 20px (PB) + 10px (BB) + 20px (MB) =
+            <span>300px</span></h3></h3>
+    </section>
+
+    <!-- section border-box -->
+    <section>
+        <div class="box border-box"></div>
+        <h3>Total-Width = 20px (ML) + 300px (content width + PL + BL + PR + BR) + 20px (MR) = <span>340px</span></h3>
+        <h3>Total-Height = 20px (MT) + 200px (content width + PT + BL + PR + BR) + 20px (MB) = <span>240px</span></h3>
+    </section>
+
 </body>
 </html>
