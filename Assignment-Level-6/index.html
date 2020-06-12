@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Level 6</title>
+    <link rel="stylesheet" href="./assests/stylesheets/main.css">
+</head>
+<body>
+    
+    <!-- header -->
+    <header>
+        <h1 class="primary-heading">
+            The Box Model, Box-sizing &amp; Box-shadow
+        </h1>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <hr>
+        <!-- section exercise 1 -->
+        <section class="exercise">
+            <h3>Exercise 1</h3>
+            <div class="square-center">
+                <div class="square"></div>
+            </div>
+
+            <!-- different color info -->
+            <section class="info">
+                <span class="content"></span>
+                <p>content</p>
+                <span class="padding"></span>
+                <p>padding</p>
+                <span class="border"></span>
+                <p>border</p>
+                <span class="margin"></span>
+                <p>margin</p>
+            </section>
+        </section>
+
+        <hr>
+        <!-- section exercise 2 -->
+        <section class="exercise">
+            <h3>Exercise 2</h3>
+            
+            <!-- section child -->
+            <section>
+                <p class="negative-margin">no border on these boxes</p>
+                <section class="parent">
+                    <div class="child"></div><!--
+                --><div class="child"></div><!--
+                --><div class="child"></div>
+                </section>
+            </section>
+
+            <hr>
+            <!-- section child -->
+            <section>
+                <p>1px border on these boxes</p>
+                <section class="parent">
+                    <div class="child solid-border"></div>
+                    <div class="child solid-border"></div>
+                    <div class="child solid-border"></div>
+                </section>
+            </section>
+
+            <hr>
+            <!-- section child -->
+            <section>
+                <p>1px border on these boxes but they are in same line</p>
+                <section class="parent">
+                    <div class="child solid-border border-box"></div><!--
+                 --><div class="child solid-border border-box"></div><!--
+                 --><div class="child solid-border border-box"></div>
+                </section>
+            </section>
+
+        </section>
+    </main>
+</body>
+</html>

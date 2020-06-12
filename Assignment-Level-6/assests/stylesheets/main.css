@@ -1,0 +1,133 @@
+@import url(./reset.css);
+
+/* custom style */
+
+header,
+main {
+    width: 80%;
+    margin: 50px auto;
+}
+
+h1,
+h3,
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+h1 {
+    font-size: 54px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.exercise,
+.parent {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* Exercise 1 */
+
+.parent {
+    border: 1px solid #000;
+    margin: 50px 0;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.child {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    background-color: greenyellow;
+}
+
+.solid-border {
+    border: 1px solid #000;
+}
+
+hr {
+    width: 500px;
+    margin: auto;
+    border: 1px dashed gray;
+}
+
+.negative-margin {
+    margin-top: -20px;
+}
+
+/* Exercise 1 */
+.square {
+    box-sizing: border-box;
+    width: 180px;
+    height: 180px;
+    background-color: #dafad4;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+    box-shadow: inset 0px 0px 0px 20px #add8e6, 0px 0px 0px 20px #ed7f80;
+}
+
+/* How I center a square which already has margin  
+    & not want to auto or something I wrapped a 
+    square a parent & I know its parent have 600px width
+    & my square is width of 220px 
+    so the available space is 
+    (600-220 = 380px/ 2 = 190px ML & LR) 
+*/
+
+.square-center {
+    margin: 50px 190px;
+}
+
+.info {
+    margin: 50px auto 30px;
+    text-align: center;
+}
+
+.info p,
+.info span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.info span {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 1px;
+}
+
+.content {
+    background-color: #dafad4;
+}
+
+.padding {
+    background-color: #add8e6;
+}
+
+.border {
+    background-color: #000;
+}
+
+.margin {
+    background-color: #ed7f80;
+}
+
